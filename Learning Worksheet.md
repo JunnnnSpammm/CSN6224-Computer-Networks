@@ -23,17 +23,3 @@
 8. Attenuation refers to the loss of ***energy*** as a signal travels through a medium.
 9. The three major causes of transmission impairment are attenuation, distortion, and ***noise***.
 10. Latency is made up of four components: propagation time, transmission time, queuing time, and ***processing delay***.
-
-### Useful Equations
-1. **Period:** $T = \frac{1}{f}$
-2. **Wavelength:** $\lambda = \frac{\text{Light speed}}{\text{Frequency}}$, where Light speed = $3 \times 10^8$
-3. **Bandwidth:** $B = f_h - f_l$
-4. **Bits per level:** $\text{Number of bits} = \log_2(L)$
-5. **Bit Rate:** $\text{Bit rate (bps)} = 2 \times \text{bandwidth} \times \log_2(L)$
-6. **Bit length:** $\text{Bit length} = \text{propagation speed} \times \text{bit duration}$
-7. **Amplification:**  $\text{dB} = 10 \log_{10}\left(\frac{P_2}{P_1}\right)$
-8. **Signal-to-Noise Ratio (SNR):** $\text{SNR} = \frac{P_{\text{signal}}}{P_{\text{noise}}}$
-9. **Nyquist Rate (Noiseless Channel):** $\text{Bit rate} = 2B \log_2 L$
-10. **Shannon Capacity (Noisy Channel):** $C = B \log_2(1 + \text{SNR})$
-11. **Throughput:** $\text{Throughput} = \text{Bandwidth} \times \text{Efficiency}$
-12. **Latency:** $\text{Latency} = \text{Propagation delay} + \text{Transmission delay} + \text{Queueing delay} + \text{Processing delay}$
